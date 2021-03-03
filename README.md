@@ -44,5 +44,5 @@ python downloader.py
 
 - Optional
 ```commandline
-python downloader.py --meata [balanced_train_segments.csv | eval_segments.csv | unbalanced_train_segments.csv] 
+python downloader.py --meta [balanced_train_segments.csv | eval_segments.csv | unbalanced_train_segments.csv] 
 ```
