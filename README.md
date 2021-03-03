@@ -5,6 +5,8 @@ This repository is created to make it easy to download **Audioset**.
 
 ## Pre-requisites
  - Python3
+ - anaconda
+
 
 ## How to start
 
@@ -31,7 +33,6 @@ conda activate Audioset_downloader
 conda install -c conda-forge tqdm -y
 conda install -c conda-forge ffmpeg -y
 conda install -c conda-forge youtube-dl -y
-
 ```
 
 ### 2. How to Use
