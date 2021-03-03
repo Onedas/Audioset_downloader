@@ -1,0 +1,22 @@
+name: Audioset_downloader
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2020.12.5=h5b45459_0
+  - certifi=2020.12.5=py37h03978a9_1
+  - ffmpeg=4.3.1=ha925a31_0
+  - openssl=1.1.1j=h8ffe710_0
+  - pip=21.0.1=py37haa95532_0
+  - python=3.7.10=h6244533_0
+  - python_abi=3.7=1_cp37m
+  - setuptools=52.0.0=py37haa95532_0
+  - sqlite=3.33.0=h2a8f88b_0
+  - tqdm=4.58.0=pyhd8ed1ab_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - wincertstore=0.2=py37_0
+  - youtube-dl=2021.3.3=py37h03978a9_0
+  - zlib=1.2.11=h62dcd97_4
+prefix: C:\Users\Onedas\anaconda3\envs\Audioset_downloader

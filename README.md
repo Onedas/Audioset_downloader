@@ -12,10 +12,11 @@ This repository is created to make it easy to download **Audioset**.
 
 #### - 1.1 Clone this repo:
 ```commandline
-git clone https://github.com/Onedas/.git
+git clone https://github.com/Onedas/Audioset_downloader.git
 ```
 
-#### - 1.2 Install ffmpeg, youtube-dl
+#### - 1.2 Install 
+tqdm, ffmpeg, youtube-dl
 
 - For conda users, you can create a new Conda environment and install, using 
     
@@ -24,6 +25,13 @@ conda env create -f environment.yml
 ```
 or
 ```commandline
+conda create -n Audioset_downloader python=3.7
+conda activate Audioset_downloader
+
+conda install -c conda-forge tqdm -y
+conda install -c conda-forge ffmpeg -y
+conda install -c conda-forge youtube-dl -y
+
 ```
 
 ### 2. How to Use
