@@ -134,6 +134,9 @@ def download_audios_from_metadata(meta_file, meta_root = 'meta_data', save_root 
             youtubeID, start_time, end_time, classes = line.replace('\n','').split(', ')
             classes = classes.replace("\"", '').split(',')
 
+            # file exist check
+            if os.path.isfile(f'{save_path}/audioset{youtubeID}.txt'):
+                continue
             # download audio
             audiodata_file = os.path.join(save_path, f'audioset{youtubeID}.wav')
             wav_from_youtube(youtubeID, start_time, end_time, audiodata_file)
@@ -170,3 +173,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    # import glob
+    # wavs = glob.glob(f'data/balanced_train_segments/*.wav')
